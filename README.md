@@ -50,3 +50,20 @@ cognileap/
 cd backend
 pip install -r requirements.txt
 uvicorn server:app --reload
+
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Memory Game
+![Memory Game](screenshots/memory.png)
+
+### Attention Game
+![Attention Game](screenshots/attention.png)
+
+### Puzzle Game
+![Puzzle Game](screenshots/puzzle.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
