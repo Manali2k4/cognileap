@@ -31,14 +31,15 @@ Cognileap is a full-stack web application designed to support cognitive skill de
 
 ## Project Structure
 
+```
 cognileap/
-├── frontend/ # React frontend application
-├── backend/ # FastAPI backend server
-├── tests/ # Test cases
+├── frontend/        # React frontend application
+├── backend/         # FastAPI backend server
+├── tests/           # Test cases
 ├── .gitignore
 ├── yarn.lock
 └── README.md
-
+```
 
 ---
 
@@ -46,10 +47,21 @@ cognileap/
 
 ### Backend
 
+Run the following commands to start the backend server:
+
 ```bash
 cd backend
 pip install -r requirements.txt
 uvicorn server:app --reload
+```
+
+The backend server will be available at:
+http://127.0.0.1:8000  
+
+API documentation:
+http://127.0.0.1:8000/docs
+
+---
 
 ## Screenshots
 
